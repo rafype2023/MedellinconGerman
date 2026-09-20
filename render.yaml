@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: medellin-con-german
+    runtime: static
+    buildCommand: 'echo "Sitio estático listo"'
+    staticPublishPath: ./dist
